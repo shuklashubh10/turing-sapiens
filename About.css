@@ -60,4 +60,84 @@ body {
   -ms-transform: "";
   -o-transform: "";
 }
+
+.arrow-social-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contact-arrow {
+  font-family: Open Sans;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  color: #5ee7df;
+  /*Abspositioningmakesitnottakeupvertspace*/
+  /*Borderisthenewbackground*/
+  /*Rotatefromtopleftcorner(notdefault)*/
+  margin-top: 3.5em;
+  margin-left: 1em;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.arrow-img {
+  height: 2em;
+  padding-top: 4em;
+}
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 4.75em;
+}
+
+.social-icons a img {
+  height: 2em;
+}
+
+.social-icons .item-2 {
+  padding-left: 3em;
+}
+
+.right-abt-content {
+  padding-top: 0em;
+  margin-left: -3em;
+}
+
+.tagcloud {
+  font-size: 1em;
+  color: #5ee7df;
+  font-family: Open Sans;
+  font-weight: 200;
+}
+
+.tagcloud--item {
+  padding: 1em 2em;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.light .tagcloud--item {
+  color: #fff;
+}
+
+.light .tagcloud--item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+}
 /*# sourceMappingURL=About.css.map */
