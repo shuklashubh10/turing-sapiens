@@ -22,6 +22,6 @@ Important Links -
 
 ## Mockup of our Prototype
 
-<img src="./MOCKUP IMAGES/left">
-<img src="./MOCKUP IMAGES/center">
-<img src="./MOCKUP IMAGES/right">
+<img src="./MOCKUP IMAGES/left" height="200px">
+<img src="./MOCKUP IMAGES/center" height="200px">
+<img src="./MOCKUP IMAGES/right" height="200px">
