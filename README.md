@@ -22,6 +22,9 @@ Important Links -
 
 ## Mockup of our Prototype
 
-<img src="./MOCKUP IMAGES/left" height="200px" style="float: left;">
-<img src="./MOCKUP IMAGES/center" height="200px" style="float: left;">
-<img src="./MOCKUP IMAGES/right" height="200px" style="float: left;">
+<div style="display: flex; flex-direction: row;">
+<img src="./MOCKUP IMAGES/left" height="200px" >
+<img src="./MOCKUP IMAGES/center" height="200px">
+<img src="./MOCKUP IMAGES/right" height="200px">
+
+</div>
