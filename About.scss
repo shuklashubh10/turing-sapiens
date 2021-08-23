@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300;400;600;800&display=swap");
+body {
+	background-color: black;
+	margin: 0%;
+	padding: 0%;
+}
+
+.abt-top-svg-container {
+	img {
+		width: 100%;
+
+		// height: fit-content;
+	}
+}
+
+.content-container {
+	margin-top: -29em;
+	margin-left: 15em;
+	display: flex;
+	flex-direction: row;
+}
+
+.tags {
+	font-family: Caveat;
+	color: #05fdd836;
+	font-size: 1.25em;
+}
+
+.left-abt-content {
+	width: 40em;
+
+	p {
+		color: #9ed0d7;
+		opacity: 0.8;
+		padding-top: 2em;
+		font-family: Open Sans;
+		font-weight: 100;
+		font-size: 0.9em;
+		width: 30em;
+	}
+}
+
+.heading {
+	font-family: Open Sans;
+	font-size: 3.5em;
+	font-weight: 700;
+	padding-left: 0.5em;
+	letter-spacing: 1em;
+	text-transform: uppercase;
+	background-image: linear-gradient(90deg, #5ee7df, #b490ca);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	-webkit-transform: to-upper-case($string: "");
+	-moz-transform: to-upper-case($string: "");
+	-ms-transform: to-upper-case($string: "");
+	-o-transform: to-upper-case($string: "");
+}
