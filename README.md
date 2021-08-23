@@ -22,6 +22,6 @@ Important Links -
 
 ## Mockup of our Prototype
 
-<img src="./MOCKUP IMAGES/mockuuups-ipad-pro-mockup-on-white-table.jpg"
-
->
+<img src="./MOCKUP IMAGES/left.png">
+<img src="./MOCKUP IMAGES/center.png">
+<img src="./MOCKUP IMAGES/right.png">
