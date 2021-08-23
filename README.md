@@ -28,8 +28,8 @@ Important Links -
 <img src="./MOCKUP IMAGES/right" height="200px">
 
 </div>
-<div style="display: flex; flex-direction: row; margin-left: 10em; border-radius:10px;">
-<img src="./MOCKUP IMAGES/mockup_1.jpg" height="200px" >
-<img src="./MOCKUP IMAGES/mockup_2.jpg" height="200px">
+<div style="display: flex; flex-direction: row; border-radius:10px;">
+<img src="./MOCKUP IMAGES/mockup_1.jpg" height="400px" >
+<img src="./MOCKUP IMAGES/mockup_2.jpg" height="400px">
 
 </div>
