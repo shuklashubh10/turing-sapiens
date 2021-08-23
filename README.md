@@ -19,3 +19,9 @@ Important Links -
         </a>
   </li>
 </ul>
+
+## Mockup of our Prototype
+
+<img src="./MOCKUP IMAGES/mockuuups-ipad-pro-mockup-on-white-table.jpg"
+
+>
