@@ -29,7 +29,7 @@ Important Links -
 
 </div>
 <div style="display: flex; flex-direction: row; border-radius:10px;">
-<img src="./MOCKUP IMAGES/mockup_1.jpg" height="400px" >
-<img src="./MOCKUP IMAGES/mockup_2.jpg" height="400px">
+<img src="./MOCKUP IMAGES/mockup_1.jpg" height="400px"  style="padding-left:25px">
+<img src="./MOCKUP IMAGES/mockup_2.jpg" height="400px" style="padding-left:25px">
 
 </div>
