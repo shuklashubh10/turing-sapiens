@@ -18,6 +18,7 @@ Important Links -
         About section
         </a>
   </li>
+  
 </ul>
 
 ## Mockup of our Prototype
