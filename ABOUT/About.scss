@@ -315,7 +315,7 @@ body {
 		}
 	}
 	.content-container {
-		margin-top: -12em;
+		margin-top: -19em;
 		margin-left: 8em;
 		flex-direction: row;
 	}
@@ -399,7 +399,7 @@ body {
 		}
 	}
 	.content-container {
-		margin-top: -16em;
+		margin-top: -26em;
 		margin-left: 12em;
 		flex-direction: row;
 	}
@@ -411,7 +411,7 @@ body {
 		font-size: 2.5em;
 	}
 	.tags {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	.left-abt-content {
 		width: 30em;
@@ -422,7 +422,7 @@ body {
 			padding-left: 0.5em;
 			font-family: Open Sans;
 			font-weight: 100;
-			font-size: 1.25em;
+			font-size: 0.85em;
 			width: 25em;
 		}
 	}
@@ -431,7 +431,7 @@ body {
 	}
 }
 
-@media (min-width: 1550px) {
+@media (min-width: 1550px) and (max-width: 2000px) {
 	.abt-top-svg-container {
 		img {
 			width: 100%;
@@ -441,7 +441,7 @@ body {
 		}
 	}
 	.content-container {
-		margin-top: -22em;
+		margin-top: -28em;
 		margin-left: 15em;
 		flex-direction: row;
 	}
