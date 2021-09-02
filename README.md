@@ -9,7 +9,7 @@ Important Links -
         </a>  
   </li>
   <li>
-        <a href="">
+        <a href="https://shuklashubh10.github.io/turing-sapiens/ABOUT/About.html">
         Github pages deployed link
         </a>
   </li>
