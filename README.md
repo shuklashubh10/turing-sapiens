@@ -21,6 +21,12 @@ Important Links -
   
 </ul>
 
+## 📚 Notes and other important resources:
+
+-[Including sections from other html files](https://www.w3schools.com/howto/howto_html_include.asp)
+
+
+
 ## Mockup of our Prototype
 
 <div style="display: flex; flex-direction: row;">
