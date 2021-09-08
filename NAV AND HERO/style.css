@@ -17,22 +17,26 @@
     display: grid;
     grid-template-columns: 2fr auto 1fr;
     align-items: center;
-    height: 80px;
+    /* height: 80px; */
     width: 100%;
     max-width: 1720px;
     margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 3.5em;
+    border-radius: 100px;
+
 
 
 }
 #navbar-logo{
     font-weight: 200;
-    font-size: 25px;
+    font-size: 1.8em;
     color: white;
     justify-self: start;
     margin-left: 100px;
     cursor: pointer;
     white-space: nowrap;
-    letter-spacing: 4.1px;
+    letter-spacing: 0.35em;
     text-transform: uppercase;
     /* padding-left: 150px; */
    
@@ -46,18 +50,18 @@
     text-align: center;
     width: 100%;
     justify-self: end;
-    /* padding-left: 100px; */
+     padding-right: 4.2em; 
 }
 
 .nav-links{
     color: white;
     text-decoration: none;
     padding: 20px ;
-    font-size: 23px;
-    letter-spacing: 2px;
+    font-size: 1.25em;
+    letter-spacing: 5px;
 }
 .nav-links:hover {
-    color: lightgreen;
+    color: #05FDD8;
     transition: all 0.2s ease-out;
 }
 
