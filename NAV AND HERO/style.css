@@ -73,7 +73,7 @@
     background: white;
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 1110px)  {
     .nav-container {
         position: relative;
     }
@@ -101,6 +101,7 @@
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
+        margin-top: 40px;
     }
     .nav-links{
         text-align: center;
@@ -113,11 +114,12 @@
         background-color: #05FDD8;
         color: white;
         transition: all 0.4s ease-out;
+        width: 100%;
     }
 
     #mobile-menu{
         position: absolute;
-        top: 20%;
+        /* top: 80px; */
         right: 5%;
         transform: translate(5%,20%);
 
