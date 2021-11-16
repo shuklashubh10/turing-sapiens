@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TagCloud Examples</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .light {
+            background: #666;
+            color: #fff;
+        }
+
+        .content .tagcloud {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        ul {
+            display: inline-block;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <!-- custom style -->
+    <style>
+        .tagcloud {
+            font-size: 16px;
+        }
+
+        .tagcloud--item {
+            padding: 2px 4px;
+            background-color: transparent;
+            border: 1px solid transparent;
+            cursor: pointer;
+        }
+
+        .tagcloud--item:hover {
+            background-color: rgba(0, 0, 0, .1);
+            border: 1px solid #333;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            opacity: 1 !important;
+            z-index: 100 !important;
+        }
+
+        .light .tagcloud--item {
+            color: #fff;
+        }
+
+        .light .tagcloud--item:hover {
+            background-color: rgba(255, 255, 255, .1);
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><a href="http://github.com/mcc108/TagCloud">TagCloud.js</a></h1>
+    <!-- 自定义样式切换 -->
+    <ul>
+        <li><a href="#" onclick="toDefault()">Default Style</a></li>
+        <li><a href="#" onclick="toLight()">Light Style</a></li>
+    </ul>
+    <ul>
+        <li><a href="#" onclick="addTag()">Add Tag</a></li>
+        <li><a href="#" onclick="removeTag()">Remove Tag</a></li>
+    </ul>
+    <ul>
+        <li><a href="#" onclick="toCreate()">New TagCloud</a></li>
+        <li><a href="#" onclick="toDestroy()">Destroy TagCloud</a></li>
+    </ul>
+    <ul>
+        <li><a href="#" onclick="pause()">Pause Animation</a></li>
+        <li><a href="#" onclick="resume()">Resume Animation</a></li>
+    </ul>
+    <ul>
+        <li><a href="#" onclick="addClickEvent()">Add ClickEvent</a></li>
+        <li><a href="#" onclick="removeClickEvent()">Remove ClickEvent</a></li>
+    </ul>
+    <div class="content">
+        <!-- content -->
+    </div>
+    <script type="text/javascript" src="../dist/TagCloud.min.js"></script>
+    <script>
+        var texts = [
+            '3D', 'TagCloud', 'JavaScript',
+            'CSS3', 'Animation', 'Interactive',
+            'Mouse', 'Rolling', 'Sphere',
+            '6KB', 'v2.x',
+        ];
+        var tc = TagCloud('.content', texts);
+        console.log(tc);
+    </script>
+    <script>
+        // switch style
+        function toDefault() { document.body.classList.remove('light'); }
+        function toLight() { document.body.classList.add('light'); }
+        // add / remove tag
+        function addTag() {
+            if (!tc) return;
+            texts.push('New');
+            tc.update(texts);
+        }
+        function removeTag() {
+            if (!tc) return;
+            texts.pop();
+            tc.update(texts);
+        }
+        var otherTcs = [];
+        // create and destroy tagcloud
+        function toCreate() {
+            if (otherTcs.length >= 3) return;
+            otherTcs.push(TagCloud('.content', texts));
+        }
+        function toDestroy() {
+            var last = otherTcs[otherTcs.length - 1];
+            if (!last) return;
+            last.destroy();
+            otherTcs.pop();
+        }
+        // pause and resume tagcloud animation
+        function pause() {
+            [].concat(tc, otherTcs).forEach(function (e) { return e.pause() });
+        }
+        function resume() {
+            [].concat(tc, otherTcs).forEach(function (e) { return e.resume() });
+        }
+        // add and remove clickEvent
+        function clickEventHandler(e) {
+            if (e.target.className === 'tagcloud--item') {
+                window.open(`https://www.google.com/search?q=${e.target.innerText}`, '_blank');
+            }
+        }
+        function addClickEvent() {
+            var rootEl = document.querySelector('.content');
+            rootEl.addEventListener('click', clickEventHandler);
+        }
+        function removeClickEvent() {
+            var rootEl = document.querySelector('.content');
+            rootEl.removeEventListener('click', clickEventHandler);
+        }
+    </script>
+</body>
+
+</html>

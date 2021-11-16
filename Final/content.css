@@ -1,0 +1,141 @@
+.main {
+	background: #000;
+}
+
+.main-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-self: center;
+	width: 100%;
+	/* margin: 50; */
+	padding: 3em 10em 4em 4em;
+
+	height: 5vh;
+}
+.main-content {
+	justify-self: start;
+	margin-left: 80px;
+	color: #05fdd8;
+	width: 100%;
+	font-weight: 100;
+}
+
+.main-content h1 {
+	font-size: 3rem;
+	font-weight: 600;
+}
+.main-btn {
+	font-size: 1rem;
+	background-color: #05fdd8;
+	margin-top: 2rem;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	outline: none;
+	transition: all 0.35s;
+}
+.tags {
+	font-family: Caveat;
+	color: #05fdd836;
+	font-size: 1.25em;
+}
+
+.main-btn a {
+	position: relative;
+	z-index: 2;
+	color: #fff;
+	text-decoration: none;
+}
+
+.main-btn:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	transition: all 0.35s;
+	background: rgb(113, 113, 243);
+	border-radius: 8px;
+}
+
+.main-btn:hover {
+	color: #fff;
+}
+
+.main-btn:hover:after {
+	width: 100%;
+}
+/* turing ke logo ki css hai ye */
+#main-img {
+	padding-left: 2.65em;
+	width: 67%;
+}
+
+/* main-img-container{
+    text-align: center;
+} */
+
+@media screen and (max-width: 768px) {
+	.main-container {
+		display: grid;
+		grid-template-columns: auto;
+		align-items: center;
+		justify-self: center;
+		width: 90%;
+		margin: 0 auto;
+		background-color: #000;
+	}
+	.main-content {
+		justify-self: center;
+		color: #05fdd8;
+		width: 80%;
+		margin: 0;
+	}
+	.main-content h1 {
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.main-content {
+		text-align: center;
+	}
+	.main-content h1 {
+		font-size: 2.8rem;
+	}
+
+	.main-btn {
+		padding: 12px 36px;
+		margin-top: 2.5rem2;
+	}
+}
+
+.contact-arrow {
+	font-family: Open Sans;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	color: #5ee7df;
+	position: absolute;
+	background: none;
+	margin-top: 3.5em;
+	margin-left: 1em;
+	transform-origin: 0 0;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+.arrow-img {
+	height: 2em;
+	padding-top: 4em;
+}
+
+#wave-img {
+	width: 100%;
+}
