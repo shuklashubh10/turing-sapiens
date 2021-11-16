@@ -1,0 +1,147 @@
+@import url('content.css');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap%22");
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-container{
+    width: 100%;
+    background-color: #0F0F0F;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 0.2fr 20em 1fr; 
+    align-items: center;
+    /* height: 80px; */
+    width: 100%;
+    max-width: 1720px;
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 3.5em;
+    border-radius: 100px;
+
+
+
+}
+#navbar-logo{
+    font-weight: 200;
+    font-size: 1.8em;
+    color: white;
+    justify-self: start;
+    margin-left: 100px;
+    cursor: pointer;
+    white-space: nowrap;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    /* padding-left: 150px; */
+   
+} 
+
+.nav-menu{
+    display: grid;
+    font-weight: 300;
+    grid-template-columns: repeat(4,auto);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    justify-self: end;
+     padding-right: 4.2em; 
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: 20px ;
+    font-size: 1.25em;
+    letter-spacing: 5px;
+}
+.nav-links:hover {
+    color: #05FDD8;
+    transition: all 0.2s ease-out;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3 ease-in-out;
+    background: white;
+}
+
+@media screen and (max-width: 1110px)  {
+    .nav-container {
+        position: relative;
+    }
+    .nav-menu{
+        display: grid;
+        grid-template-columns: auto;
+        background: #05FDD8;
+       
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+         left: -100%;
+        opacity: 0;
+        transition: all 0.5 ease;
+
+
+    }
+     #navbar-logo{
+        margin-left:20px;
+
+     }
+    .nav-menu.active{
+        background: #0f0f0f;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        margin-top: 40px;
+    }
+    .nav-links{
+        text-align: center;
+        line-height: 60px;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        background-color: #05FDD8;
+        color: white;
+        transition: all 0.4s ease-out;
+        width: 100%;
+    }
+
+    #mobile-menu{
+        position: absolute;
+        /* top: 80px; */
+        right: 5%;
+        transform: translate(5%,20%);
+
+    }
+    .menu-toggle .bar{
+        display: block;
+        cursor: pointer;
+    } 
+    .menu-toggle:hover {
+        cursor: pointer;
+
+    }
+    #mobile-menu.is-active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+}

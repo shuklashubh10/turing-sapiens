@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="About.css" />
+		<title>Turing Sapiens About Page</title>
+	</head>
+	<body>
+		<div class="abt-top-svg-container">
+			<img src="./Images/top.svg" alt="" />
+		</div>
+
+		<div class="content-container">
+			<div class="left-abt-content">
+				<div class="tags">&lt;h1&gt;</div>
+				<div class="heading">About</div>
+				<div class="tags">&lt;/h1&gt;</div>
+
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+					itaque reiciendis laboriosam! Fugiat harum ullam assumenda, voluptate
+					numquam expedita laudantium recusandae, dicta illum voluptatem culpa
+					dolorum suscipit! Blanditiis, accusantium voluptates! Lorem, ipsum
+					dolor sit amet consectetur adipisicing elit. Lorem, ipsum.
+				</p>
+
+				<div class="arrow-social-container">
+					<div>
+						<div class="contact-arrow">
+							<a style="text-decoration: none; color: #5ee7df" href="">
+								Contact
+							</a>
+						</div>
+						<img class="arrow-img" src="./Images/arrow.svg" alt="" />
+					</div>
+
+					<div class="social-icons">
+						<a
+							href="https://www.instagram.com/turingsapiensmuj/"
+							target="_blank"
+						>
+							<img src="./Images/instagram.svg" alt="" />
+						</a>
+						<a
+							href="https://in.linkedin.com/company/turing-sapiens"
+							class="item-2"
+							target="_blank"
+						>
+							<img src="./Images/linkedin.svg" alt="" />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="right-abt-content"></div>
+		</div>
+
+		<script src="./EXTERNAL SCRIPTS/TagCloud-master/TagCloud-master/dist/TagCloud.min.js"></script>
+		<script>
+			const myTags = [
+				"JavaScript",
+				"CSS",
+				"HTML",
+				"Angular",
+				"VueJS",
+				"React",
+				"Python",
+				"Go",
+				"Chrome",
+				"Edge",
+				"Firefox",
+				"Safari",
+				"SCSS",
+				"Data Structures",
+				"Gaming"
+
+			];
+
+			var tagCloud = TagCloud(".right-abt-content", myTags, {
+				// radius in px
+				radius: 250,
+
+				// animation speed
+				// slow, normal, fast
+				maxSpeed: "normal",
+				initSpeed: "slow",
+
+				// 0 = top
+				// 90 = left
+				// 135 = right-bottom
+				direction: 225,
+
+				// interact with cursor move on mouse out
+				keep: true,
+			});
+		</script>
+	</body>
+</html>
