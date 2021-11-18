@@ -1,5 +1,6 @@
 .main {
 	background: #000;
+	/* overflow-x: hidden; */
 }
 
 .main-container {
@@ -32,7 +33,7 @@
 	padding: 8px 20px;
 	border: none;
 	border-radius: 8px;
-	color: #fff;
+	color: rgb(20, 3, 3);
 	cursor: pointer;
 	position: relative;
 	outline: none;
@@ -47,7 +48,7 @@
 .main-btn a {
 	position: relative;
 	z-index: 2;
-	color: #fff;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -67,13 +68,18 @@
 	color: #fff;
 }
 
+.main-btn a:hover {
+	color: #fff;
+}
+
 .main-btn:hover:after {
 	width: 100%;
 }
 /* turing ke logo ki css hai ye */
 #main-img {
 	padding-left: 2.65em;
-	width: 67%;
+	width: 60%;
+	padding-top: 2em;
 }
 
 /* main-img-container{
@@ -137,5 +143,6 @@
 }
 
 #wave-img {
+	padding-top: 5em;
 	width: 100%;
 }

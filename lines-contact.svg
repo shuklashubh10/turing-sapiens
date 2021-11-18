@@ -1,0 +1,26 @@
+<svg
+					width="1440"
+					height="660"
+					viewBox="0 0 1440 660"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<line
+						x1="-1.94486"
+						y1="613.394"
+						x2="1438.06"
+						y2="5.39374"
+						stroke="#05FDD8"
+						stroke-opacity="0.8"
+						stroke-width="10"
+					/>
+					<line
+						x1="-1.94486"
+						y1="655.394"
+						x2="1438.06"
+						y2="47.3937"
+						stroke="#66C6FF"
+						stroke-opacity="0.44"
+						stroke-width="10"
+					/>
+				</svg>
