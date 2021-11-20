@@ -748,6 +748,10 @@ body {
 }
 
 .ourteam-con-head {
+	padding-left: 7vw;
+}
+
+.ourteam-con-head-2 {
 	padding-left: 6em;
 }
 
@@ -885,20 +889,18 @@ body {
 
 /* NEED TO FIX THE CONTACT FORM STYLING */
 /* 
-.contact-container {
-	margin-top: 5vh;
-	height: 95vh;
-}
-
 body {
 	background-color: #0f0f0f;
 	font-family: "Open Sans", sans-serif;
 	color: #05fdd8;
-}
+} */
 
-section {
+.contact {
+	background-color: #0f0f0f;
+	font-family: "Open Sans", sans-serif;
+	color: #05fdd8;
 	padding: 5rem 10px;
-	background-color: #fff;
+	background-color: #000000;
 	background-image: linear-gradient(
 		170deg,
 		#000,
@@ -912,12 +914,12 @@ section {
 .form-box {
 	width: 100%;
 	max-width: 500px;
-	margin: 0 auto;
+	margin: 7vw;
 	padding: 2rem;
 	background-image: linear-gradient(
 		170deg,
 		#000,
-		#000 50%,
+		#000 45%,
 		#0f0f0f 50%,
 		#0f0f0f 100%
 	);
@@ -926,13 +928,13 @@ section {
 	-webkit-box-shadow: 1px 1px 3px #05060825, 3px 3px 7px #05fdd866;
 	box-shadow: 1px 1px 3px #05060825, 3px 3px 7px #05fdd866;
 }
-
+/* 
 h2 {
 	text-transform: uppercase;
 	margin-bottom: 0.7rem;
 	font-size: 2rem;
 	font-weight: 300;
-}
+} */
 
 .form-item {
 	margin-bottom: 0.7rem;
@@ -1033,4 +1035,3 @@ input[type="submit"]:active {
 		transform: scale(0.98);
 	}
 }
-# sourceMappingURL=style.css.map */
