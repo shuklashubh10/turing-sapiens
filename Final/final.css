@@ -656,12 +656,13 @@ body {
 	/* white-space: nowrap; */
 	/* margin: 10px 0px; */
 	/* padding-top: 10px; */
-	padding: 1vh;
+	
+	
 	display: flex;
 	min-height: 48vh;
 	margin-top: 19vh;
 	margin-bottom: 20em;
-	margin-left: 12vh;
+	margin-left: 8vh;
 	background-color: #1a1a1a;
 	overflow-x: scroll;
 	overflow-y: hidden;
@@ -710,6 +711,7 @@ body {
 
 .section {
 	background-color: #0d0d0d;
+	
 	margin-top: 30vh;
 	/* width: 100%; */
 	/* height: 120vh; */
