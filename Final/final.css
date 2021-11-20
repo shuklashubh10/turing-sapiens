@@ -656,13 +656,12 @@ body {
 	/* white-space: nowrap; */
 	/* margin: 10px 0px; */
 	/* padding-top: 10px; */
-	
-	
+	padding: 1vh;
 	display: flex;
 	min-height: 48vh;
 	margin-top: 19vh;
 	margin-bottom: 20em;
-	margin-left: 8vh;
+	margin-left: 7vw;
 	background-color: #1a1a1a;
 	overflow-x: scroll;
 	overflow-y: hidden;
@@ -711,7 +710,6 @@ body {
 
 .section {
 	background-color: #0d0d0d;
-	
 	margin-top: 30vh;
 	/* width: 100%; */
 	/* height: 120vh; */
@@ -1037,21 +1035,3 @@ input[type="submit"]:active {
 		transform: scale(0.98);
 	}
 }
-<<<<<<< HEAD
-=======
-# sourceMappingURL=style.css.map */
-.overlay {
-	position: absolute;
-	bottom: 0;
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.5); /* Black see-through */
-	color: #f1f1f1;
-	width: 100%;
-	transition: .5s ease;
-	opacity:0;
-	color: white;
-	font-size: 20px;
-	padding: 20px;
-	text-align: center;
-  }
->>>>>>> 8cfba0206b469e28dc9e3319a7975051517e6643
