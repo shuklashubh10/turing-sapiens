@@ -679,7 +679,7 @@ body {
 }
 
 .carousel-item {
-	background-color: #05fdd8d9;
+	/* background-color: #05fdd8d9; */
 	border-radius: 20px;
 	cursor: pointer;
 
@@ -884,7 +884,7 @@ body {
 
 @media only screen and (max-width: 811px) {
 .carousel__container{
-	width: 51vw;
+	width: 91vw;
 	margin-left: 9vw;
 	/* margin-right: 3vw; */
 }
@@ -892,11 +892,21 @@ body {
 
 
 }
+@media only screen and (max-width: 350px) {
+	.carousel__container{
+		width: 53vw;
+		margin-left: 5vw;
+		/* margin-right: 3vw; */
+	}
+	
+	
+	
+	}
 
 
 @media only screen and (max-width: 500px) {
 	.carousel__container{
-		width: 30vw;
+		width: 85vw;
 		margin-left: 5vw;
 		/* margin-right: 3vw; */
 	}
