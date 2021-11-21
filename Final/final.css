@@ -670,7 +670,7 @@ body {
 	/* position: relative; */
 	position: absolute;
 	border-radius: 2vh;
-	max-width: 169vh;
+	max-width: 86vw;
 	padding-right: 2vh;
 	padding-left: 3.5vh;
 	padding-top: 4vh;
@@ -779,6 +779,33 @@ body {
 	margin-top: 18vh;
 	margin-left: 148vh;
 }
+@media only screen and (max-width: 1666px) {
+	.carousel__container {
+		width: 115vw;
+		margin-right: 7vw;
+	}
+	.past {
+		margin-left: 130vh;
+	}
+}
+@media only screen and (max-width: 1540px) {
+	.carousel__container {
+		width: 115vw;
+	}
+	.past {
+		margin-left: 130vh;
+	}
+}
+@media only screen and (max-width: 1540px) {
+	.carousel__container {
+		width: 115vw;
+	}
+	.past {
+		margin-left: 130vh;
+	}
+}
+
+
 
 @media only screen and (max-width: 1400px) {
 	.carousel__container {
@@ -791,15 +818,23 @@ body {
 
 @media only screen and (max-width: 1310px) {
 	.carousel__container {
-		width: 149vh;
+		width: 75vw;
 	}
 	.past {
 		margin-left: 120vh;
 	}
 }
+@media only screen and (max-width: 1293px) {
+	.carousel__container {
+		width: 72vw;
+	}
+	.past {
+		margin-left: 110vh;
+	}
+}
 @media only screen and (max-width: 1245px) {
 	.carousel__container {
-		width: 139vh;
+		width: 70vw;
 	}
 	.past {
 		margin-left: 110vh;
@@ -807,7 +842,7 @@ body {
 }
 @media only screen and (max-width: 1160px) {
 	.carousel__container {
-		width: 129vh;
+		width: 68vw;
 	}
 	.past {
 		margin-left: 110vh;
@@ -815,7 +850,7 @@ body {
 }
 @media only screen and (max-width: 1120px) {
 	.carousel__container {
-		width: 120vh;
+		width: 66vw;
 	}
 	.past {
 		margin-left: 95vh;
@@ -823,7 +858,7 @@ body {
 }
 @media only screen and (max-width: 1000px) {
 	.carousel__container {
-		width: 109vh;
+		width: 64vw;
 	}
 	.past {
 		margin-left: 82vh;
@@ -831,7 +866,7 @@ body {
 }
 @media only screen and (max-width: 960px) {
 	.carousel__container {
-		width: 103vh;
+		width: 61vw;
 	}
 	.past {
 		margin-left: 79vh;
@@ -839,7 +874,7 @@ body {
 }
 @media only screen and (max-width: 900px) {
 	.carousel__container {
-		width: 90vh;
+		width: 59vw;
 	}
 	.past {
 		margin-left: 69vh;
@@ -847,28 +882,80 @@ body {
 }
 @media only screen and (max-width: 812px) {
 	.carousel__container {
-		width: 82vh;
+		width: 59vw;
 	}
 	.past {
 		margin-left: 59vh;
 	}
 }
+@media only screen and (max-width: 790px) {
+	.carousel__container {
+		width: 59vw;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	.carousel__container {
+		width: 59vw;
+	}
+	
+}
 @media only screen and (max-width: 727px) {
 	.carousel__container {
-		width: 72vh;
+		width: 60vh;
 	}
 	.past {
 		margin-left: 49vh;
 	}
 }
-@media only screen and (max-width: 690px) {
+
+@media only screen and (max-width: 768px) {
 	.carousel__container {
-		width: 70vh;
-		margin-left: 10vh;
+		width: 60vw;
 	}
 	.past {
-		margin-left: 39vh;
+		margin-left: 49vh;
 	}
+}
+
+
+	@media only screen and (max-width: 681px) {
+		.carousel__container {
+			width: 56vw;
+			
+			
+		}
+
+		
+
+			@media only screen and (max-width: 660px) {
+				.carousel__container {
+					width: 55vw;
+					
+					
+
+				}
+
+
+				@media only screen and (max-width: 671px) {
+					.carousel__container {
+						width: 55vw;
+						
+						
+					}
+
+					
+				@media only screen and (max-width: 671px) {
+					.carousel__container {
+						width: 55vw;
+						margin-left:;
+						
+					}
+		
+			
+	
+					
+
 	/* .gradient-text{
     font-size: 3em;
     
@@ -877,12 +964,10 @@ body {
 }
 @media only screen and (max-width: 590px) {
 	.carousel__container {
-		width: 49vh;
-		margin-left: 9vh;
+		width: 49vw;
+		
 	}
-	.past {
-		margin-left: 25vh;
-	}
+	
 }
 
 /* CONTACT FORM BEGINS HERE */
