@@ -114,7 +114,7 @@
 
 	#mobile-menu {
 		position: absolute;
-		/* top: 80px; */
+		/* top: 44px; */
 		right: 5%;
 		transform: translate(5%, 20%);
 	}
@@ -140,6 +140,19 @@
 @media screen and (max-width: 767px) {
 	#navbar-logo {
 		margin-left: 2em;
+	}
+	
+}
+@media screen and (max-width: 480px) {
+	#navbar-logo {
+		margin-left: 1em;
+		font-size: 1.3em;
+	}
+	#mobile-menu {
+		position: absolute;
+		top: 44px;
+		right: 5%;
+		transform: translate(5%, 20%);
 	}
 	
 }
