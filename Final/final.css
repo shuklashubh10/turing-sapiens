@@ -827,7 +827,7 @@ body {
 }
 @media only screen and (max-width: 1293px) {
 	.carousel__container {
-		width: 72vw;
+		width: 75vw;
 	}
 	.past {
 		margin-left: 110vh;
@@ -835,7 +835,7 @@ body {
 }
 @media only screen and (max-width: 1245px) {
 	.carousel__container {
-		width: 70vw;
+		width: 75vw;
 	}
 	.past {
 		margin-left: 110vh;
@@ -843,133 +843,75 @@ body {
 }
 @media only screen and (max-width: 1160px) {
 	.carousel__container {
-		width: 68vw;
+		width: 75vw;
 	}
-	.past {
-		margin-left: 110vh;
-	}
+	
 }
 @media only screen and (max-width: 1120px) {
 	.carousel__container {
-		width: 66vw;
+		width: 70vw;
 	}
-	.past {
-		margin-left: 95vh;
-	}
+	
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1061px) {
 	.carousel__container {
-		width: 64vw;
+	
+		width: 68vw;
 	}
-	.past {
-		margin-left: 82vh;
-	}
+	
 }
 @media only screen and (max-width: 960px) {
 	.carousel__container {
 		width: 61vw;
+		margin-left: 19vw;
 	}
-	.past {
-		margin-left: 79vh;
-	}
+	
 }
 @media only screen and (max-width: 900px) {
 	.carousel__container {
 		width: 59vw;
+		margin-left: 19vw;
 	}
-	.past {
-		margin-left: 69vh;
-	}
+	
 }
 @media only screen and (max-width: 812px) {
 	.carousel__container {
-		width: 59vw;
-	}
-	.past {
-		margin-left: 59vh;
-	}
-}
-@media only screen and (max-width: 790px) {
-	.carousel__container {
-		width: 59vw;
+		width: 53vw;
+		margin-left: 10vw;
 	}
 	
 }
-@media only screen and (max-width: 768px) {
-	.carousel__container {
-		width: 59vw;
+
+@media only screen and (max-width: 811px) {
+.carousel__container{
+	width: 51vw;
+	margin-left: 9vw;
+	/* margin-right: 3vw; */
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+	.carousel__container{
+		width: 30vw;
+		margin-left: 5vw;
+		/* margin-right: 3vw; */
 	}
 	
-}
-@media only screen and (max-width: 727px) {
-	.carousel__container {
-		width: 60vh;
-	}
-	.past {
-		margin-left: 49vh;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	.carousel__container {
-		width: 60vw;
-	}
-	.past {
-		margin-left: 49vh;
-	}
-}
-
-
-	@media only screen and (max-width: 681px) {
-		.carousel__container {
-			width: 56vw;
-			
-			
-		}
-
-		
-
-			@media only screen and (max-width: 660px) {
-				.carousel__container {
-					width: 55vw;
-					
-					
-
-				}
-
-
-				@media only screen and (max-width: 671px) {
-					.carousel__container {
-						width: 55vw;
-						
-						
-					}
-
-					
-				@media only screen and (max-width: 671px) {
-					.carousel__container {
-						width: 55vw;
-						margin-left:;
-						
-					}
-		
-			
 	
-					
-
-	/* .gradient-text{
-    font-size: 3em;
-    
-    
-  } */
-}
-@media only screen and (max-width: 590px) {
-	.carousel__container {
-		width: 49vw;
-		
-	}
 	
-}
+	}
+
+
+
+
+
+
+
+
 
 /* CONTACT FORM BEGINS HERE */
 
